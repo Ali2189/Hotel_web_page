@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Luxury Moon Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Luxury Moon Hotel</h1>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#rooms">Rooms</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#reservation">Reservation</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to Luxury Moon Hotel</h2>
+            <p>Experience luxury and comfort in the heart of the city.</p>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-cards">
+            <div class="room-card">
+                <img src="../Masoor/Pictures/grand-deluxe_king-1.jpg" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p>A spacious room with modern amenities and stunning views.</p>
+                <p>$150 per night</p>
+            </div>
+            <div class="room-card">
+                <img src="../Masoor/Pictures/suit room.jpeg" alt="Suite Room">
+                <h3>Suite Room</h3>
+                <p>Indulge in luxury with a large suite, perfect for families.</p>
+                <p>$250 per night</p>
+            </div>
+            <div class="room-card">
+                <img src="../Masoor/Pictures/Presedential room.jpeg" alt="Presidential Suite">
+                <h3>Presidential Suite</h3>
+                <p>Experience the pinnacle of luxury with this exclusive suite.</p>
+                <p>$500 per night</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Luxury Moon Hotel offers a blend of elegance, comfort, and exceptional service. Whether you're here for business or leisure, our hotel promises a memorable experience with world-class amenities and personalized attention.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or need assistance? Reach out to us!</p>
+        <p>Email: <a href="mailto:info@luxuryMoon.com">info@luxurystay.com</a></p>
+        <p>Phone: +1 (123) 456-7890</p>
+        <p>Address: 123 Luxury St, City, Country</p>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <h2>Make a Reservation</h2>
+        <form action="reserve_room.php" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="date">Check-in Date:</label><br>
+            <input type="date" id="date" name="check-in" required><br><br>
+
+            <label for="checkout">Check-out Date:</label><br>
+            <input type="date" id="checkout" name="check-out" required><br><br>
+
+            <label for="room-type">Room Type:</label><br>
+            <select id="room-type" name="room-type" required>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Suite Room</option>
+                <option value="presidential">Presidential Suite</option>
+            </select><br><br>
+
+            <input type="submit" value="Reserve Now">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Luxury Stay Hotel | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

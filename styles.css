@@ -1,0 +1,181 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+/* Home Section */
+#home {
+    background: url('../Masoor/Pictures/1.jpeg') no-repeat center center/cover;
+    color: rgb(5, 12, 75);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+/* Rooms Section */
+#rooms {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #808c9e;
+}
+
+.room-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.room-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.room-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.room-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.room-card p:last-child {
+    font-weight: bold;
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    background-color: #ccb4db;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+/* Reservation Section */
+#reservation {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#reservation h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #575757;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
